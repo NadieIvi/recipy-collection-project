@@ -31,3 +31,17 @@ header {
   max-width: 560px;
   margin: 0 auto;
 }
+
+/*content*/
+.recipes {
+  margin-top: 100px;
+}
+.recipes-title {
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 700;
+  margin: 10px 0 50px;
+}
+.recipes-img {
+  max-height: 560px;
+}
