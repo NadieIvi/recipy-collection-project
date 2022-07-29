@@ -1,3 +1,14 @@
+:root {
+  --primary-color: #272142;
+}
+
 body {
   font-family: "Nunito", sans-serif;
+}
+
+header {
+  text-align: center;
+  color: white;
+  background-image: url("images/overlay.png");
+  background-color: var(--primary-color);
 }
