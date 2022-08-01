@@ -18,7 +18,7 @@ header {
   padding: 44px 0;
   margin-top: 135px;
   background-color: var(--primary-color);
-  background-image: url("/recipy-collection-project/images/overlay.jpg");
+  background-image: url("../images/overlay.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
