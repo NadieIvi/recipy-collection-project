@@ -12,6 +12,10 @@ body {
   line-height: 22px;
 }
 
+.active-nav {
+  color: #662eed;
+}
+
 header {
   text-align: center;
   color: white;
