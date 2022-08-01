@@ -51,3 +51,31 @@ header {
 .recipes-img {
   max-height: 560px;
 }
+
+/*responsivness*/
+@media (max-width: 1181px) {
+  .recipes-title {
+    font-size: 22px;
+  }
+  .recipes {
+    margin-top: 50px;
+  }
+  .recipes-title {
+    margin: 10px 0 30px;
+  }
+  header {
+    margin-top: 90px;
+  }
+}
+
+@media (max-width: 641px) {
+  .header-title {
+    font-size: 39px;
+    margin: 0;
+  }
+  .header-text {
+    font-size: 20px;
+    line-height: 28px;
+    padding: 0 20px;
+  }
+}
