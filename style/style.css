@@ -64,13 +64,15 @@ footer {
   background-color: #f9f7fe;
 }
 .social-media {
-  font-size: 16px;
-  line-height: 18px;
-  font-weight: 400;
+  display: flex;
+  align-items: center;
 }
 
 .social-media a {
+  font-size: 16px;
+  font-weight: 400;
   color: var(--primary-color);
+  text-decoration: none;
 }
 
 .inst-icon {
@@ -79,7 +81,6 @@ footer {
 
 .copyright {
   font-size: 16px;
-  line-height: 19px;
   font-weight: 400;
   color: var(--primary-color);
   font-family: "Roboto", sans-serif;
@@ -98,6 +99,14 @@ footer {
   }
   header {
     margin-top: 90px;
+  }
+  footer {
+    text-align: center;
+    padding: 20px 0px;
+  }
+  .social-media {
+    margin: 20px 0;
+    justify-content: center;
   }
 }
 
