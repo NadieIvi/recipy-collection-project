@@ -51,9 +51,38 @@ header {
   line-height: 38px;
   font-weight: 700;
   margin: 10px 0 50px;
+  text-decoration: none;
+  color: #272142;
 }
 .recipes-img {
   max-height: 560px;
+}
+
+/* footer */
+footer {
+  padding: 39px 140px;
+  background-color: #f9f7fe;
+}
+.social-media {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.social-media a {
+  color: var(--primary-color);
+}
+
+.inst-icon {
+  padding: 0 30px;
+}
+
+.copyright {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  color: var(--primary-color);
+  font-family: "Roboto", sans-serif;
 }
 
 /*responsivness*/
