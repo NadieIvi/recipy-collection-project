@@ -86,6 +86,71 @@ footer {
   font-family: "Roboto", sans-serif;
 }
 
+/*about*/
+.about-title {
+  font-size: 72px;
+  font-weight: 700;
+  text-align: center;
+  margin: 126px 0;
+}
+
+.about-section {
+  max-width: 960px;
+  margin-bottom: 100px;
+}
+
+.about-description {
+  margin-top: 70px;
+  padding-left: 40px;
+}
+
+.description-title {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.description-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.description-social-media {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.description-social-media a {
+  font-size: 16px;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 41px;
+}
+
+.favorite-recipe {
+  margin: 0 auto 100px;
+}
+
+.favorite-recipe-name {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.favorite-recipe-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  max-width: 350px;
+}
+
 /*responsivness*/
 @media (max-width: 1181px) {
   .recipes-title {
