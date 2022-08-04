@@ -142,6 +142,8 @@ h3 {
   font-size: 24px;
   font-weight: 700;
   margin: 20px 0;
+  text-decoration: none;
+  color: var(--primary-color);
 }
 
 .favorite-recipe-description {
