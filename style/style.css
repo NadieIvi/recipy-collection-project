@@ -247,7 +247,7 @@ h3 {
   .favorite-recipe {
     padding: 0 30px;
   }
-  .about-title {
+  .content-title {
     margin-bottom: 50px;
   }
   .about-section {
@@ -256,6 +256,13 @@ h3 {
   .about-description {
     padding-left: 10px;
     margin-top: 20px;
+  }
+  .ingrediant-item {
+    margin-bottom: 20px;
+  }
+  .ingrediant-item,
+  .method {
+    padding: 0 20px;
   }
 }
 
@@ -270,7 +277,13 @@ h3 {
     padding: 0 20px;
   }
 }
-.about-title,
+.content-title,
 .description-title {
   font-size: 50px;
+}
+.recipe-container {
+  padding: 0 20px;
+}
+.recipe-collection-title {
+  font-size: 26px;
 }
