@@ -62,6 +62,7 @@ header {
 footer {
   padding: 39px 140px;
   background-color: #f9f7fe;
+  margin-top: 50px;
 }
 .social-media {
   display: flex;
@@ -87,7 +88,7 @@ footer {
 }
 
 /*about*/
-.about-title {
+.content-title {
   font-size: 72px;
   font-weight: 700;
   text-align: center;
@@ -151,6 +152,63 @@ h3 {
   font-weight: 400;
   line-height: 30px;
   padding-right: 30px;
+}
+
+/*recipe-container*/
+.recipe-container {
+  max-width: 760px;
+}
+
+.recipe-collection-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 42px 0 32px;
+}
+
+.step-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  border-bottom: #67d5d2 dashed 1px;
+  padding-bottom: 25px;
+}
+
+.ingrediants {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ingrediants li {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: #67d5d2 dashed 1px;
+}
+
+.method h4 {
+  font-size: 18px;
+  font-weight: 800;
+  color: #f65282;
+  margin-bottom: 14px;
+}
+
+.method p {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.step-2 {
+  margin-top: 33px;
+}
+
+.method {
+  padding: 0 10px 0 0;
+}
+
+.ingrediant-item {
+  padding: 0 0 0 10px;
 }
 
 /*responsivness*/
