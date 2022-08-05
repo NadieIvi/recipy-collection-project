@@ -81,7 +81,8 @@ footer {
   padding: 0 30px;
 }
 
-.copyright {
+.copyright,
+.github {
   font-size: 16px;
   font-weight: 400;
   color: var(--primary-color);
@@ -230,6 +231,11 @@ h3 {
 .contact-info a {
   text-decoration: none;
   color: var(--primary-color);
+}
+
+.github {
+  text-align: center;
+  margin: 20px 0;
 }
 
 /*responsivness*/
