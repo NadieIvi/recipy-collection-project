@@ -12,7 +12,8 @@ body {
   line-height: 22px;
 }
 
-.active-nav {
+.active-nav,
+.nav-item a:hover {
   color: #662eed;
 }
 
@@ -224,6 +225,11 @@ h3 {
   font-weight: 400;
   color: #272142;
   margin-bottom: 50px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: var(--primary-color);
 }
 
 /*responsivness*/
