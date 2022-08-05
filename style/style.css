@@ -95,7 +95,7 @@ footer {
   margin: 126px 0;
 }
 
-.about-section {
+.content-section {
   max-width: 960px;
   margin-bottom: 100px;
 }
@@ -211,6 +211,21 @@ h3 {
   padding: 0 0 0 10px;
 }
 
+/*contact*/
+.contact-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #662eed;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #272142;
+  margin-bottom: 50px;
+}
+
 /*responsivness*/
 @media (max-width: 1181px) {
   .recipes-title {
@@ -250,7 +265,7 @@ h3 {
   .content-title {
     margin-bottom: 50px;
   }
-  .about-section {
+  .content-section {
     margin-bottom: 50px;
   }
   .about-description {
