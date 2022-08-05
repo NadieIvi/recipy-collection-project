@@ -297,21 +297,22 @@ h3 {
 @media (max-width: 641px) {
   .header-title {
     font-size: 39px;
-    margin: 0;
+    margin: 10px 0;
+    line-height: 1;
   }
   .header-text {
     font-size: 20px;
     line-height: 28px;
     padding: 0 20px;
   }
-}
-.content-title,
-.description-title {
-  font-size: 50px;
-}
-.recipe-container {
-  padding: 0 20px;
-}
-.recipe-collection-title {
-  font-size: 26px;
+  .content-title,
+  .description-title {
+    font-size: 50px;
+  }
+  .recipe-container {
+    padding: 0 20px;
+  }
+  .recipe-collection-title {
+    font-size: 26px;
+  }
 }
