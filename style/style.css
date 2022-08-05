@@ -238,6 +238,10 @@ h3 {
   margin: 20px 0;
 }
 
+.github a {
+  color: #662eed;
+  text-decoration: none;
+}
 /*responsivness*/
 @media (max-width: 1181px) {
   .recipes-title {
